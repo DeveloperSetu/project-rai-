@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web site</title>
+    <!-- bootstrapt cdn -->
+    <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"/>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="custom.css" />
+</head>
+<body>
+
+    <div class="menuBar shadow">
+        <ul>
+            <li>
+                <a href="index.html"><img id="meniIcon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAsElEQVR4nO3SLW4CQQCG4QdCMCQYBBqDq+IGOHQdl2iCwXKFHgDXM9RVY7gApq4JtklFK9rBzCabDdv9TRDsl7z2mcxkuLdtYq2vhx1C7Bn9tvAB9ik86QXDpvgIr1fwpDeM6+ITHP7Bk46YVsVnOJXAk94xL4s/4KMCHmJnLIrwJT5r4CH2hVUe/ojvBniI/WCdxZ/w2wIeYn/Y5t2kKV64mx2QXXeA7olu94u6Se8COwHf2dlByCEAAAAASUVORK5CYII="><br><b>Home</b></a>
+            </li>
+
+            <li>
+                <a href="income.html"><img id="meniIcon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0klEQVR4nO2UPQrCQBCFPyy9QvwF9QRWXkbwJt4krYTcwcbaI9iLgvECIwtThCG72U1SWOTBa3Zn3reZwMCoDpoBBfAFJNKutgS2MeHvhGAxdr1ZCFD0CBf1JQSIHcsDyIETcDZ3nxDAF/jUwCOwND2ThvpkwCLUNATAaqVfMzgg1/nb88EAknj+n4Cr/gP6AnxB64iHRQF8QTtzNu8K8AXdgQMwBfbALQVQ1YpigqTBwVVRRoZIwG5heuXG8uq5rje0KNOVWx+XtLjSl7eGj8LqB1GD7e7RVibiAAAAAElFTkSuQmCC"><br><b>Income</b></a>
+            </li>
+
+            <li>
+                <a id="meniIcon" href="task.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAeElEQVR4nO2ROQ6AMAwEp4BPIehBvIzjlQkdjzBNKEDIQZDCRIy0VZydYsEIJTADa8gEFCkFIyCnDE+KemC5KJOQCqiVdw90msArnyWUN5EbpwkkUewI7mJXINlvIOYFkv0GO3YF8rkNfIJypwm6lxIHtJG9fjiwAcXKDENIkU8NAAAAAElFTkSuQmCC"><br><b>Task</b></a>
+            </li>
+
+            <li>
+                <a href="finance.html"><img id="meniIcon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA5UlEQVR4nO3TvUoDURAF4E8M4gPkCVIGO9/AwifII9inTB+FrI2lTyD21nb5sbW2FSKWYpFONgRuYIk3urt30xgPnGbuzDnDzFz2Hcc4wxWe8InzFMFDnGKARyyQb/CuiuABTtDHAz42xL7wjBu8hthbqNuKDi5wj/dIhy+4RQ/tQl0L85DT9Scxi4wjr8lJzCBvmN+wfhiqj2EZgxiOcB1OcHUpWYhV0vnJIIuMIEs1mBWWtb7vIueRvEoGU4xLGBTzKhn8NqLRltzaS85C18lLTjnTyzIGO/tokwbFxwlT+IdmsQRtebBXIdebJQAAAABJRU5ErkJggg=="><br><b> Finance </b></a>
+            </li>
+
+            <li>
+                <a href="mine.html"><img id="meniIcon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAoElEQVR4nO2UQQqDMBBF39KjGUt7gBxR3eg93Lfb2kt0NSJMYSgSsZMWC34YCJnPPAg/A4c2qgJGQD6sEQgpgGe4aN1TAMlU+wQMxjfkBPTADbgY33y+Ap0XULOuxgOIpncCHgtRjB7AEygWIvyKYqGe/QKi6QWFzMPLXE/UsK7WG9NOI2ljeta7/i8+mvxqVUgOwNfXdVCDZ3iZAhziXRM6rQpF1j6tFAAAAABJRU5ErkJggg=="><br><b>Mine</b></a>
+            </li>
+        </ul>
+    </div>
+        <a href="index.html"><img src="data:image/png;base64,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"></a><br>
+
+<!-- part2........... -->
+<h4 class="text-center mb-5">My income</h4>
+    <div class="container" style="max-width: 60%;">
+        <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped" style="width: 45%"></div>
+        </div><br><br>
+        <div class="row">
+            <div class="col-md-6">    
+                <h2 style="display: inline;" class="text-primary"> Total assets : 0</h2>
+            </div>
+            <div class="col-md-6">    
+                <h2 style="display: inline; color: rgb(118, 135, 150);" >Available Balance : 0.00</h2>
+            </div>
+           
+        </div>
+        <br><br><br><br><br>
+
+<div class="row mb-4">
+    <div class="col-md-4">
+       <h4 class="text-primary text-center">0</h4>
+       <p class="text-center">Record expenditure</p>
+    </div>
+
+    <div class="col-md-4">
+        <h4 class="text-primary text-center">0</h4>
+        <p class="text-center">Concert expenditure</p>
+     </div>
+
+     <div class="col-md-4">
+        <h4 class="text-primary text-center">0</h4>
+        <p class="text-center">Financial expenditure</p>
+     </div><br><br>
+     <div class="container">
+        <img src="img/hdh.png" alt="">
+     </div>
+
+     <table class="table table-light mt-5">
+        <thead class="thead-light">
+
+        </thead>
+        <tbody>
+    
+        </tbody>
+            <tr>
+                <th><img style="width: 20px; " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEJklEQVR4nOWZW4hVVRjHfzamhg0p4hQomZWgzhhKpgVdH3zUN6UQqwfREvGSWpRaok+iPklPZg+pqS8VCFoRpFAq1oM6Mo2Bl9SHEZuL5mXUcsUX/w2LxZnZa5+zzzlb+sMH56y99re+/95rfbcNleFBYBrwJrAB2A0cAdqBP4Au4K6kS2PtmmNz1wPzpMN01RTPAB8B3wPXAZeTmK7vgA+BSdUyvhF4B/glR8PT5JjWtLUrxkBgAdBRQwIukD+BD4BB5ZIYB7TWkYALxGx5OiuJl4HOAhjvSrwdsy0KTwE9BTDa9SHdwNgYIl8WwFiXIjtjiHQXwFCXIl3/KyK7CmCoS5EdMUSevA8O+xNE4iW5OlcwuQK8GEviUc8NnyiA8U5yXDb5NvaLs8BEL0WxfOdyHQlclg1mi6EZOBdDJMlE3wMaNNaonOtoDQkc0ZpJ0mhEVgI3dD2KSCK2tWYDD3jX7Ym8DxwA/srRcNO1H1jl7Qi09hzgZDA/E5FETmuBUcFce0pTgbnAOrnuw0CbXr/5+zuSLo21ac4u3TNXOpKtk2C0HtjvfdhUFpFE/gEOAquB50ssXglM1wvAGuCQ1urPllRkqfpuAb8CnwErgNflHq0EGAkMBwZIhmtsnOa8oT2/XTpMV+y6V2OI7Kujh3KR8nVsTZ7l6dRabsrhRGFWzo2FvKQXmBlLwvazYbKCoyuInFHbyLexX+wBhuj3Qyr865lEXgU+kS2GwbGFlZMXmeKNjQCW1zj3apNXe8SzY4pyLhdLxKk7uBV4PLhuytYCP3jpQt5ySzXHHMWX8cBe4J43J5pIIncUhWd4uVcC6zVNV8t0ver9UpE9qSM61TL9KUOXpgP4u8R4ZiJhJrpNaUWYrsTCDuoWT6dt1yXKr4ZKzL0uLZFfZSKSZbtcBL4FNivVnqU3NFaR3CRB8n+z50oXBglpCLv2rub669rbTcWBGhxkM+wV4vFqQOabmJueBW5XmYi9iaxY5N3ve9R+MbuKacqJlO3UFxq8XrR5s2g8B1yoAhE72OVimXTYR6JUfO618M2DfJxzJehXf1nRLB1Wq6TCyc9P8MaalKq05UCkkg83jZ6eKCJOB34T8FhwfZpK1B/LPEc1J+I8V7ld3yXCQzpY5enbwcfQ34DzQWTPY2u1VELEl0vAp/Ia4ZtKwxfSYRG7XCzPQiRLQXVeLZxN6kHN1NYboyg+zNM7T/ecrMD9npKOa0Wp2S3tyIrFRazZe5V2xOI1L9u4GXjUutfsvUo7wtLAR4PehJ8yvUVG1Kpmb1XEtmD3sKRFBzs5E85r2J1SXMuEItXsY7xcqywy9arZ29X79T1fk0emtVwy1a7ZLXAe1tO3UqIv5EqmnJq9R/+tu/4z8BWwEZgvHZYlxKIqZOqFJo+Meb/7Gkbmv+D6L2fooONJ+T2tAAAAAElFTkSuQmCC">   Today's ticket income : </th>
+                <th>0</th>
+            </tr>
+
+            <tr>
+                <th><img style="width: 20px; " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEJklEQVR4nOWZW4hVVRjHfzamhg0p4hQomZWgzhhKpgVdH3zUN6UQqwfREvGSWpRaok+iPklPZg+pqS8VCFoRpFAq1oM6Mo2Bl9SHEZuL5mXUcsUX/w2LxZnZa5+zzzlb+sMH56y99re+/95rfbcNleFBYBrwJrAB2A0cAdqBP4Au4K6kS2PtmmNz1wPzpMN01RTPAB8B3wPXAZeTmK7vgA+BSdUyvhF4B/glR8PT5JjWtLUrxkBgAdBRQwIukD+BD4BB5ZIYB7TWkYALxGx5OiuJl4HOAhjvSrwdsy0KTwE9BTDa9SHdwNgYIl8WwFiXIjtjiHQXwFCXIl3/KyK7CmCoS5EdMUSevA8O+xNE4iW5OlcwuQK8GEviUc8NnyiA8U5yXDb5NvaLs8BEL0WxfOdyHQlclg1mi6EZOBdDJMlE3wMaNNaonOtoDQkc0ZpJ0mhEVgI3dD2KSCK2tWYDD3jX7Ym8DxwA/srRcNO1H1jl7Qi09hzgZDA/E5FETmuBUcFce0pTgbnAOrnuw0CbXr/5+zuSLo21ac4u3TNXOpKtk2C0HtjvfdhUFpFE/gEOAquB50ssXglM1wvAGuCQ1urPllRkqfpuAb8CnwErgNflHq0EGAkMBwZIhmtsnOa8oT2/XTpMV+y6V2OI7Kujh3KR8nVsTZ7l6dRabsrhRGFWzo2FvKQXmBlLwvazYbKCoyuInFHbyLexX+wBhuj3Qyr865lEXgU+kS2GwbGFlZMXmeKNjQCW1zj3apNXe8SzY4pyLhdLxKk7uBV4PLhuytYCP3jpQt5ySzXHHMWX8cBe4J43J5pIIncUhWd4uVcC6zVNV8t0ver9UpE9qSM61TL9KUOXpgP4u8R4ZiJhJrpNaUWYrsTCDuoWT6dt1yXKr4ZKzL0uLZFfZSKSZbtcBL4FNivVnqU3NFaR3CRB8n+z50oXBglpCLv2rub669rbTcWBGhxkM+wV4vFqQOabmJueBW5XmYi9iaxY5N3ve9R+MbuKacqJlO3UFxq8XrR5s2g8B1yoAhE72OVimXTYR6JUfO618M2DfJxzJehXf1nRLB1Wq6TCyc9P8MaalKq05UCkkg83jZ6eKCJOB34T8FhwfZpK1B/LPEc1J+I8V7ld3yXCQzpY5enbwcfQ34DzQWTPY2u1VELEl0vAp/Ia4ZtKwxfSYRG7XCzPQiRLQXVeLZxN6kHN1NYboyg+zNM7T/ecrMD9npKOa0Wp2S3tyIrFRazZe5V2xOI1L9u4GXjUutfsvUo7wtLAR4PehJ8yvUVG1Kpmb1XEtmD3sKRFBzs5E85r2J1SXMuEItXsY7xcqywy9arZ29X79T1fk0emtVwy1a7ZLXAe1tO3UqIv5EqmnJq9R/+tu/4z8BWwEZgvHZYlxKIqZOqFJo+Meb/7Gkbmv+D6L2fooONJ+T2tAAAAAElFTkSuQmCC">   Today's concert income :</th>
+                <th>0</th>
+            </tr>
+
+            <tr>
+                <th><img style="width: 20px; " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEJklEQVR4nOWZW4hVVRjHfzamhg0p4hQomZWgzhhKpgVdH3zUN6UQqwfREvGSWpRaok+iPklPZg+pqS8VCFoRpFAq1oM6Mo2Bl9SHEZuL5mXUcsUX/w2LxZnZa5+zzzlb+sMH56y99re+/95rfbcNleFBYBrwJrAB2A0cAdqBP4Au4K6kS2PtmmNz1wPzpMN01RTPAB8B3wPXAZeTmK7vgA+BSdUyvhF4B/glR8PT5JjWtLUrxkBgAdBRQwIukD+BD4BB5ZIYB7TWkYALxGx5OiuJl4HOAhjvSrwdsy0KTwE9BTDa9SHdwNgYIl8WwFiXIjtjiHQXwFCXIl3/KyK7CmCoS5EdMUSevA8O+xNE4iW5OlcwuQK8GEviUc8NnyiA8U5yXDb5NvaLs8BEL0WxfOdyHQlclg1mi6EZOBdDJMlE3wMaNNaonOtoDQkc0ZpJ0mhEVgI3dD2KSCK2tWYDD3jX7Ym8DxwA/srRcNO1H1jl7Qi09hzgZDA/E5FETmuBUcFce0pTgbnAOrnuw0CbXr/5+zuSLo21ac4u3TNXOpKtk2C0HtjvfdhUFpFE/gEOAquB50ssXglM1wvAGuCQ1urPllRkqfpuAb8CnwErgNflHq0EGAkMBwZIhmtsnOa8oT2/XTpMV+y6V2OI7Kujh3KR8nVsTZ7l6dRabsrhRGFWzo2FvKQXmBlLwvazYbKCoyuInFHbyLexX+wBhuj3Qyr865lEXgU+kS2GwbGFlZMXmeKNjQCW1zj3apNXe8SzY4pyLhdLxKk7uBV4PLhuytYCP3jpQt5ySzXHHMWX8cBe4J43J5pIIncUhWd4uVcC6zVNV8t0ver9UpE9qSM61TL9KUOXpgP4u8R4ZiJhJrpNaUWYrsTCDuoWT6dt1yXKr4ZKzL0uLZFfZSKSZbtcBL4FNivVnqU3NFaR3CRB8n+z50oXBglpCLv2rub669rbTcWBGhxkM+wV4vFqQOabmJueBW5XmYi9iaxY5N3ve9R+MbuKacqJlO3UFxq8XrR5s2g8B1yoAhE72OVimXTYR6JUfO618M2DfJxzJehXf1nRLB1Wq6TCyc9P8MaalKq05UCkkg83jZ6eKCJOB34T8FhwfZpK1B/LPEc1J+I8V7ld3yXCQzpY5enbwcfQ34DzQWTPY2u1VELEl0vAp/Ia4ZtKwxfSYRG7XCzPQiRLQXVeLZxN6kHN1NYboyg+zNM7T/ecrMD9npKOa0Wp2S3tyIrFRazZe5V2xOI1L9u4GXjUutfsvUo7wtLAR4PehJ8yvUVG1Kpmb1XEtmD3sKRFBzs5E85r2J1SXMuEItXsY7xcqywy9arZ29X79T1fk0emtVwy1a7ZLXAe1tO3UqIv5EqmnJq9R/+tu/4z8BWwEZgvHZYlxKIqZOqFJo+Meb/7Gkbmv+D6L2fooONJ+T2tAAAAAElFTkSuQmCC">   Today's financial income : </th>
+                <th>0</th>
+            </tr>
+
+            <tr>
+                <th> <img style="width: 20px; " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEJklEQVR4nOWZW4hVVRjHfzamhg0p4hQomZWgzhhKpgVdH3zUN6UQqwfREvGSWpRaok+iPklPZg+pqS8VCFoRpFAq1oM6Mo2Bl9SHEZuL5mXUcsUX/w2LxZnZa5+zzzlb+sMH56y99re+/95rfbcNleFBYBrwJrAB2A0cAdqBP4Au4K6kS2PtmmNz1wPzpMN01RTPAB8B3wPXAZeTmK7vgA+BSdUyvhF4B/glR8PT5JjWtLUrxkBgAdBRQwIukD+BD4BB5ZIYB7TWkYALxGx5OiuJl4HOAhjvSrwdsy0KTwE9BTDa9SHdwNgYIl8WwFiXIjtjiHQXwFCXIl3/KyK7CmCoS5EdMUSevA8O+xNE4iW5OlcwuQK8GEviUc8NnyiA8U5yXDb5NvaLs8BEL0WxfOdyHQlclg1mi6EZOBdDJMlE3wMaNNaonOtoDQkc0ZpJ0mhEVgI3dD2KSCK2tWYDD3jX7Ym8DxwA/srRcNO1H1jl7Qi09hzgZDA/E5FETmuBUcFce0pTgbnAOrnuw0CbXr/5+zuSLo21ac4u3TNXOpKtk2C0HtjvfdhUFpFE/gEOAquB50ssXglM1wvAGuCQ1urPllRkqfpuAb8CnwErgNflHq0EGAkMBwZIhmtsnOa8oT2/XTpMV+y6V2OI7Kujh3KR8nVsTZ7l6dRabsrhRGFWzo2FvKQXmBlLwvazYbKCoyuInFHbyLexX+wBhuj3Qyr865lEXgU+kS2GwbGFlZMXmeKNjQCW1zj3apNXe8SzY4pyLhdLxKk7uBV4PLhuytYCP3jpQt5ySzXHHMWX8cBe4J43J5pIIncUhWd4uVcC6zVNV8t0ver9UpE9qSM61TL9KUOXpgP4u8R4ZiJhJrpNaUWYrsTCDuoWT6dt1yXKr4ZKzL0uLZFfZSKSZbtcBL4FNivVnqU3NFaR3CRB8n+z50oXBglpCLv2rub669rbTcWBGhxkM+wV4vFqQOabmJueBW5XmYi9iaxY5N3ve9R+MbuKacqJlO3UFxq8XrR5s2g8B1yoAhE72OVimXTYR6JUfO618M2DfJxzJehXf1nRLB1Wq6TCyc9P8MaalKq05UCkkg83jZ6eKCJOB34T8FhwfZpK1B/LPEc1J+I8V7ld3yXCQzpY5enbwcfQ34DzQWTPY2u1VELEl0vAp/Ia4ZtKwxfSYRG7XCzPQiRLQXVeLZxN6kHN1NYboyg+zNM7T/ecrMD9npKOa0Wp2S3tyIrFRazZe5V2xOI1L9u4GXjUutfsvUo7wtLAR4PehJ8yvUVG1Kpmb1XEtmD3sKRFBzs5E85r2J1SXMuEItXsY7xcqywy9arZ29X79T1fk0emtVwy1a7ZLXAe1tO3UqIv5EqmnJq9R/+tu/4z8BWwEZgvHZYlxKIqZOqFJo+Meb/7Gkbmv+D6L2fooONJ+T2tAAAAAElFTkSuQmCC">   Frozen : </th>
+                <th>0</th>
+            </tr>
+     </table>
+
+</div>
+
+
+</div>
+    </body>
+    </html>
+    
